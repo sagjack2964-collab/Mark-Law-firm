@@ -8,6 +8,7 @@ import { GallerySection } from './components/GallerySection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { ContactSection } from './components/ContactSection';
 import { FloatingLeadWidget } from './components/FloatingLeadWidget';
+import { ChatBot } from './components/ChatBot';
 import { Footer } from './components/Footer';
 import { QuoteModal } from './components/QuoteModal';
 
@@ -57,8 +58,8 @@ export default function App() {
       {/* Deep Forest Green & Gold Footer (Screenshot 4) */}
       <Footer onOpenQuoteModal={handleOpenConsultationModal} />
 
-      {/* Floating Call Widget */}
-      <FloatingLeadWidget />
+      {/* Interactive AI Legal Assistant Chatbot */}
+      <ChatBot onOpenConsultationModal={handleOpenConsultationModal} />
 
       {/* Confidential Consultation Modal */}
       <QuoteModal
