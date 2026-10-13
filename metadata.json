@@ -1,0 +1,8 @@
+{
+  "name": "Law Office of Mark Bronstein",
+  "description": "Experienced legal counsel in Newton, MA. Focused on Social Security Disability, Workers' Compensation, Mediation, and complex agency navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

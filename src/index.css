@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-heading {
+    font-family: 'Oswald', -apple-system, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom scrollbar and subtle print styles */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+}
